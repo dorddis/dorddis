@@ -86,10 +86,18 @@ Building AI automation systems as a **Founding Engineer**. Open to **US remote o
 
 ---
 
+## GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dorddis&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dorddis&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos per Language" />
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most Commit Language" />
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive Time" />
 </p>
