@@ -20,27 +20,17 @@ I specialize in **production AI systems**: LLM pipelines, computer vision automa
 
 ## Featured Projects
 
-### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag)
+### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag-project)
 Real-time multi-sensor fusion detecting AIS-evading vessels. Gated GNN + Hungarian algorithm for track assignment, hybrid RAG with LangChain, 3D globe visualization processing 500+ vessels at 60fps.
 
 `Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
 
-### [AI Portfolio with Generative UI](https://dorddis.vercel.app) ([repo](https://github.com/dorddis/portfolio))
+### [AI Portfolio with Generative UI](https://dorddis.vercel.app)
 Interactive portfolio powered by Gemini 2.5 Flash with streaming tool calls. 5 custom tools, Zod validation, 70% token reduction via hybrid context architecture. Multi-layer security blocking 26 penetration vectors.
 
 `Next.js 15` `React 19` `Vercel AI SDK 5.x` `TypeScript` `Redis` `Cloudflare Turnstile`
 
-### [PageResUNet - Deep Learning OCR](https://github.com/dorddis/PageResUNet-OCR)
-Hybrid ResNet + U-Net architecture that doubled OCR accuracy (0.41 → 0.82) for historical document restoration. Trained on 8-word vocabulary, generalized to 50,000-word test set.
-
-`PyTorch` `Computer Vision` `Research` | [Paper](https://drive.google.com/file/d/17-Aeh-dMh-h2bUWoHXhkb1iaM8y5sEf0/view)
-
-### [Gymzy - AI Fitness Platform](https://gymzy.vercel.app) ([repo](https://github.com/dorddis/Gymzy))
-Multi-agent AI system with hub-and-spoke pattern using LangGraph. Interactive SVG anatomy visualization (30+ muscle groups), 37+ tests with 70-85% coverage.
-
-`Next.js` `LangChain` `LangGraph` `Gemini 2.5` `Jest` `GitHub Actions`
-
-### [EggyPro - E-commerce Platform](https://eggypro.vercel.app) ([repo](https://github.com/dorddis/EggyPro))
+### [EggyPro - E-commerce Platform](https://github.com/dorddis/EggyPro)
 Full-stack e-commerce with real-time admin dashboard, Stripe payments, inventory monitoring, and Gemini-powered FAQ automating 70% of customer queries.
 
 `Next.js` `Supabase` `PostgreSQL` `Drizzle ORM` `Stripe` `Gemini 2.5`
@@ -50,6 +40,7 @@ Full-stack e-commerce with real-time admin dashboard, Stripe payments, inventory
 ## Tech Stack
 
 **AI/ML**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
@@ -57,6 +48,7 @@ Full-stack e-commerce with real-time admin dashboard, Stripe payments, inventory
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white)
 
 **Backend & Infrastructure**
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
@@ -65,12 +57,14 @@ Full-stack e-commerce with real-time admin dashboard, Stripe payments, inventory
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 
 **Frontend**
+
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
 **Specialized**
+
 `Computer Vision` `RAG Systems` `Vector Databases` `MQTT/IoT` `Web Scraping at Scale` `Prompt Engineering`
 
 ---
