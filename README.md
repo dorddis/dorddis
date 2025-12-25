@@ -169,7 +169,7 @@ Sales automation with Voice AI:
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/AIS-arch-no-bg.svg" alt="Maritime RAG Architecture" width="100%" />
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/AIS-arch.svg" alt="Maritime RAG Architecture" width="100%" />
 </p>
 
 Detecting AIS-evading vessels with AI:
