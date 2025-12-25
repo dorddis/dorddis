@@ -44,7 +44,7 @@ AWS-based distributed scraping system:
 
 ---
 
-### Real-Time IoT Fleet Tracking | TVS Motor / Twinzo
+### Real-Time IoT Fleet Tracking | Fortune 500 Automotive
 
 > **10Hz streaming | 100% fleet visibility | 99.7% uptime**
 
@@ -197,7 +197,7 @@ Complete e-commerce with real-time admin dashboard:
 |---------|------|----------|
 | **CrazyTok Media** | Founding Engineer | Singapore (Remote) |
 | **RSL Media Hub** | AI Automation Engineer | USA (Contract) |
-| **TVS Motor / Twinzo** | Integration Engineer | India (Remote) |
+| **Fortune 500 Automotive** | Integration Engineer | India (Remote) |
 | **MRUC** | Software Lead | India (Contract) |
 
 **Education:** B.Tech CS, IIIT Pune (8.14 CGPA)
