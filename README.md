@@ -16,7 +16,7 @@
 
 ---
 
-## Featured Projects
+## Work
 
 ### Video QC Automation | CrazyTok Media (Singapore)
 
@@ -80,19 +80,6 @@ Sales automation with Voice AI:
 - CRM integration with GoHighLevel
 
 `Python` `GoHighLevel API` `Voice AI` `Automation`
-
----
-
-### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag-project)
-
-> **Real-time multi-sensor fusion | 500+ vessels at 60fps | Hybrid RAG**
-
-Detecting AIS-evading vessels with AI:
-- Gated GNN + Hungarian algorithm for track assignment
-- Hybrid RAG with LangChain for maritime intelligence
-- 3D globe visualization with real-time updates
-
-`Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
 
 ---
 
@@ -160,6 +147,47 @@ Detecting AIS-evading vessels with AI:
 ![LinkedIn API](https://img.shields.io/badge/LinkedIn_API-0A66C2?style=flat&logo=linkedin&logoColor=white)
 ![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=flat&logo=gmail&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
+
+---
+
+## Projects
+
+### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag-project)
+
+> **Real-time multi-sensor fusion | 500+ vessels at 60fps | Hybrid RAG**
+
+Detecting AIS-evading vessels with AI:
+- Gated GNN + Hungarian algorithm for track assignment
+- Hybrid RAG with LangChain for maritime intelligence
+- 3D globe visualization with real-time updates
+
+`Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
+
+---
+
+### [AI Portfolio with Generative UI](https://dorddis.vercel.app)
+
+> **Streaming tool calls | 70% token reduction | 26 security vectors blocked**
+
+Interactive portfolio powered by Gemini 2.5 Flash:
+- 5 custom tools with Zod validation
+- Hybrid context architecture for efficiency
+- Multi-layer security with Cloudflare Turnstile
+
+`Next.js 15` `React 19` `Vercel AI SDK 5.x` `TypeScript` `Redis`
+
+---
+
+### [EggyPro - E-commerce Platform](https://github.com/dorddis/EggyPro)
+
+> **Full-stack e-commerce | Gemini-powered FAQ | 70% query automation**
+
+Complete e-commerce with real-time admin dashboard:
+- Stripe payments and inventory monitoring
+- Gemini chatbot automating customer queries
+- Real-time analytics and order management
+
+`Next.js` `Supabase` `PostgreSQL` `Drizzle ORM` `Stripe` `Gemini 2.5`
 
 ---
 
