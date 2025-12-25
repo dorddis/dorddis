@@ -505,19 +505,19 @@ I built Gymzy to be smarter.
 
 ---
 
-## LinkedIn Job Automation
+## Job Application Pipeline
 
-Applying to jobs is soul-crushing. The same forms, the same questions, the same rejections. I automated the pain away.
+Applying to jobs manually is tedious. Repetitive forms, the same answers, tracking dozens of applications across spreadsheets. I built a personal productivity tool to streamline the process.
 
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/linkedin-automation.webp" alt="LinkedIn Automation" width="100%" />
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/linkedin-automation.webp" alt="Job Application Pipeline" width="100%" />
 </p>
 
 <br>
 
-**The system:** Automated Easy Apply with intelligent form filling. Dual-browser setup for parallel processing. Chrome DevTools Protocol integration. Rate limiting and anti-detection measures. Tracking CSV for pipeline management.
+**The system:** Browser automation for form filling using Chrome DevTools Protocol. Pipeline tracking with CSV exports. Built for personal use to manage high-volume job searches efficiently.
 
 <br>
 
