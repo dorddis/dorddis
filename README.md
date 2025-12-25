@@ -99,107 +99,263 @@
 
 ---
 
-## Work
+# Work
 
-### Video QC Automation | CrazyTok Media (Singapore)
+Production systems I've built for clients. Real problems, real scale, real results.
 
-> **60+ min manual review -> 5-10 min automated | 92% time reduction | $0.48/video**
+---
 
-Built a multi-layer AI pipeline for video quality control:
-- **Detection Layer:** Google Cloud Vision API (98% OCR accuracy) + Tesseract pre-filter (56% cost savings)
-- **Correction Layer:** Gemini 2.5 Pro with 3-tier smart filtering
-- **Infrastructure:** PySceneDetect, Airtable, Frame.io integration
+## Video QC Automation | CrazyTok Media
 
-`Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable`
+A Singapore-based media company was spending 60+ minutes per video on manual quality control. Editors would scrub through footage frame-by-frame, checking subtitles for spelling errors, timing issues, and formatting problems.
 
-### Enterprise Web Scraping | MRUC (India)
+I built **Vidura** - a multi-layer AI pipeline that automates the entire process.
 
-> **$136K annual savings | 1M+ records | 87.5% process reduction**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/video-qc.webp" alt="Video QC Architecture" width="100%" />
+</p>
 
-AWS-based distributed scraping system:
-- Serverless architecture processing 1,000,000+ records
-- Custom ML model achieving 97% CAPTCHA solve rate
-- 50x performance improvement over manual process
+**The result:** 60+ minute reviews now take 5-10 minutes. Cost per video dropped to $0.48. The system uses PySceneDetect for intelligent frame sampling, Tesseract as a cost-saving pre-filter, Cloud Vision API for OCR, and Gemini 2.5 Pro for context-aware spell checking.
 
-`Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
+`Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable` `Frame.io`
 
-### Real-Time IoT Fleet Tracking | Fortune 500 Automotive
+---
 
-> **10Hz streaming | 100% fleet visibility | 99.7% uptime**
+## LLM Content Pipeline | CrazyTok Media
 
-End-to-end IoT integration for factory floor tracking:
-- MQTT protocol handling 10Hz sensor data
-- Sub-second latency dashboard updates
-- Complete visibility across all factory areas
+Same client, different problem. They needed consistent, high-quality social media content at scale - but LLM outputs were unpredictable. One prompt would nail the brand voice, the next would completely miss.
 
-`Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
+I engineered a 4-stage pipeline with 500+ line structured prompts and validation at each step.
 
-### LLM Content Pipeline | CrazyTok Media
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/archer.webp" alt="Archer LLM Pipeline" width="100%" />
+</p>
 
-> **500+ line prompts | 4-stage workflow | Production-grade**
-
-Automated social content generation system:
-- Multi-stage LLM pipeline with validation at each step
-- Structured prompts engineered for consistency
-- Airtable-based content management and scheduling
+**The result:** Production-grade content generation with consistent brand voice. Each stage validates the previous output before proceeding, catching errors early. Airtable integration for content management and scheduling.
 
 `Python` `Gemini 2.5 Pro` `Airtable API` `Prompt Engineering`
 
-### Voice AI + CRM Automation | RSL Media Hub (USA)
+---
 
-> **99% admin work eliminated | $15K revenue recovered | 14K leads enriched**
+## Voice AI + CRM Automation | RSL Media Hub
 
-Sales automation with Voice AI:
-- Automated call logging, transcription, and follow-ups
-- Lead scoring and pipeline management
-- CRM integration with GoHighLevel
+A US-based marketing agency was drowning in admin work. Sales reps spent more time logging calls and updating CRM than actually selling. Follow-ups were falling through the cracks. Revenue was being left on the table.
+
+I built an automation layer that eliminated 99% of the admin overhead.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/rsl-voice-crm.webp" alt="Voice AI CRM Architecture" width="100%" />
+</p>
+
+**The result:** $15K in recovered revenue from better follow-up. 14,000 leads enriched with AI. Automated call logging, transcription, lead scoring, and pipeline management. CRM integration with GoHighLevel.
 
 `Python` `GoHighLevel API` `Voice AI` `Automation`
 
 ---
 
-## Projects
+## Real-Time IoT Fleet Tracking | Fortune 500 Automotive
 
-### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag-project)
+A major automotive manufacturer needed complete visibility into their factory floor operations. Forklifts, AGVs, and equipment were tracked manually with whiteboards and radio calls. They wanted real-time digital twins.
 
-> **Real-time multi-sensor fusion | 500+ vessels at 60fps | Hybrid RAG**
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/AIS-problem.svg" alt="Maritime RAG Problem" width="100%" />
-</p>
+I built the end-to-end IoT integration layer.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/AIS-arch.svg" alt="Maritime RAG Architecture" width="100%" />
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/twinzo-iot.webp" alt="IoT Fleet Tracking" width="100%" />
 </p>
 
-Detecting AIS-evading vessels with AI:
-- Gated GNN + Hungarian algorithm for track assignment
-- Hybrid RAG with LangChain for maritime intelligence
-- 3D globe visualization with real-time updates
+**The result:** 10Hz sensor streaming with sub-second dashboard updates. 100% fleet visibility across all factory areas. 99.7% uptime. MQTT protocol handling thousands of messages per second.
+
+`Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
+
+---
+
+## Enterprise Web Scraping | MRUC
+
+A research organization in India was manually collecting data from thousands of websites. The process took weeks, cost a fortune in labor, and was error-prone. They needed scale.
+
+I built a distributed scraping system on AWS.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/mruc-scraping.webp" alt="MRUC Web Scraping" width="100%" />
+</p>
+
+**The result:** $136K annual savings. 1M+ records processed. 87.5% reduction in manual work. Custom ML model achieving 97% CAPTCHA solve rate. Serverless architecture that scales automatically.
+
+`Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
+
+---
+
+## LinkedIn Lead Enrichment | RSL Media Hub
+
+The same US marketing agency needed to enrich their lead database. Raw lists with just names and companies needed to become actionable intelligence - job titles, company sizes, contact info, personalization hooks.
+
+I built a high-throughput enrichment pipeline.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/linkedin-lead-enrichment.webp" alt="Lead Enrichment Pipeline" width="100%" />
+</p>
+
+**The result:** 14,260 businesses processed with 99.98% completion rate. 100 concurrent browser connections via Crawl4AI. Gemini 2.5 Flash for intelligent data parsing. Cost: less than $0.001 per lead.
+
+`Python` `Crawl4AI` `Gemini 2.5 Flash` `Async`
+
+---
+
+## Profile URL Finder | RSL Media Hub
+
+Before you can enrich a lead, you need their LinkedIn profile. But matching "John Smith at Acme Corp" to the right profile among thousands of John Smiths is non-trivial. Manual research was eating hours.
+
+I built an automated profile discovery system.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/profile-url-finder.webp" alt="Profile URL Finder" width="100%" />
+</p>
+
+**The result:** 96% match accuracy using multi-signal verification. Processes thousands of leads per hour. Handles edge cases like name variations, company changes, and multiple profiles.
+
+`Python` `LinkedIn API` `Fuzzy Matching` `Async Processing`
+
+---
+
+## Blog Automation | RSL Media Hub
+
+Content marketing requires consistent publishing. But writing, formatting, scheduling, and cross-posting blog content is tedious. The agency needed to scale content without scaling headcount.
+
+I built a Make.com workflow that automates the entire pipeline.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/blog-automation.webp" alt="Blog Automation Workflow" width="100%" />
+</p>
+
+**The result:** End-to-end blog automation from ideation to publishing. AI-generated drafts, human review workflow, automatic formatting, scheduled posting, and social media cross-posting.
+
+`Make.com` `Gemini 2.5 Flash` `WordPress API` `Social APIs`
+
+---
+
+## AI Insights Agent | Best Roadways
+
+A logistics company in India needed to understand their operations data. Thousands of trips, hundreds of vehicles, complex route networks - but no way to ask questions without building custom reports.
+
+I built an AI agent that lets them query their data in natural language.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/suyashh-ai-insights.webp" alt="AI Insights Agent" width="100%" />
+</p>
+
+**The result:** Natural language queries like "Show me all delayed trips last week" return instant results. SQL generation with Gemini. Dashboard integration. No more waiting for IT to build reports.
+
+`Python` `Gemini 2.5 Pro` `PostgreSQL` `FastAPI` `React`
+
+---
+
+# Projects
+
+Personal projects and portfolio pieces. Built to learn, built to demonstrate, built to ship.
+
+---
+
+## Lumina | B2B AI Wellness Platform
+
+Screen time is destroying our eyes. The average knowledge worker blinks 66% less when staring at screens. Dry eyes, headaches, fatigue - it's an epidemic hiding in plain sight.
+
+I built **Lumina** - a production-grade desktop app that uses computer vision to monitor eye health and prevent strain.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/lumina.webp" alt="Lumina Architecture" width="100%" />
+</p>
+
+**The system:** 17 detection modules using MediaPipe for real-time blink detection, posture monitoring, and drowsiness alerts. 3-window Electron architecture (hub, status bar, overlay). Offline-first with SQLite and cloud sync to Supabase. Multi-tenant admin dashboard for enterprise deployment. Turborepo monorepo with 29K+ lines of TypeScript.
+
+`Electron` `MediaPipe` `TypeScript` `Next.js` `Supabase` `Turborepo`
+
+---
+
+## Maritime Dark Ship Detection
+
+Thousands of vessels disable their AIS transponders daily to evade detection - smugglers, sanctions violators, illegal fishing operations. Traditional maritime surveillance relies on AIS alone, creating dangerous blind spots.
+
+I built a multi-sensor fusion system that detects these "dark ships."
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/maritime-rag.webp" alt="Maritime RAG Architecture" width="100%" />
+</p>
+
+**The system:** Real-time fusion of AIS, radar, satellite, and drone feeds. Gated GNN with Hungarian algorithm for track correlation. Hybrid RAG architecture for natural language queries ("Show me vessels that went dark near the Strait of Hormuz"). 3D globe visualization tracking 500+ vessels at 60fps.
 
 `Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
 
-### [AI Portfolio with Generative UI](https://dorddis.vercel.app)
+---
 
-> **Streaming tool calls | 70% token reduction | 26 security vectors blocked**
+## AI Portfolio with Generative UI
 
-Interactive portfolio powered by Gemini 2.5 Flash:
-- 5 custom tools with Zod validation
-- Hybrid context architecture for efficiency
-- Multi-layer security with Cloudflare Turnstile
+Most portfolios are static pages. You scroll, you read, you leave. I wanted something different - a portfolio you could actually talk to.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/ai-portfolio.webp" alt="AI Portfolio Architecture" width="100%" />
+</p>
+
+**The system:** Interactive portfolio powered by Gemini 2.5 Flash with streaming tool calls. 5 custom tools with Zod validation (search projects, filter by tech, get contact info). Hybrid context architecture achieving 70% token reduction. Multi-layer security blocking 26 attack vectors. Cloudflare Turnstile integration.
 
 `Next.js 15` `React 19` `Vercel AI SDK 5.x` `TypeScript` `Redis`
 
-### [EggyPro - E-commerce Platform](https://github.com/dorddis/EggyPro)
+---
 
-> **Full-stack e-commerce | Gemini-powered FAQ | 70% query automation**
+## EggyPro | Full-Stack E-commerce
 
-Complete e-commerce with real-time admin dashboard:
-- Stripe payments and inventory monitoring
-- Gemini chatbot automating customer queries
-- Real-time analytics and order management
+Building e-commerce from scratch teaches you everything - payments, inventory, real-time updates, customer support, admin dashboards. I built EggyPro as a complete production-ready platform.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/eggypro.webp" alt="EggyPro Architecture" width="100%" />
+</p>
+
+**The system:** Full-stack e-commerce with Stripe payments, real-time inventory monitoring, and AI-powered customer support. Gemini chatbot handling 70% of customer queries automatically. Real-time admin dashboard with order management and analytics.
 
 `Next.js` `Supabase` `PostgreSQL` `Drizzle ORM` `Stripe` `Gemini 2.5`
+
+---
+
+## Gymzy | AI Fitness Platform
+
+Fitness apps give you workout plans. But they don't adapt. They don't learn. They don't understand that you're exhausted from yesterday's session or that your shoulder is bothering you.
+
+I built Gymzy to be smarter.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/gymzy.webp" alt="Gymzy Architecture" width="100%" />
+</p>
+
+**The system:** AI-powered workout generation that adapts to your feedback. Progress tracking with intelligent recommendations. Exercise library with form guides. User authentication with Supabase.
+
+`Next.js` `Supabase` `PostgreSQL` `Gemini 2.5 Flash` `Tailwind`
+
+---
+
+## LinkedIn Job Automation
+
+Applying to jobs is soul-crushing. The same forms, the same questions, the same rejections. I automated the pain away.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/linkedin-automation.webp" alt="LinkedIn Automation" width="100%" />
+</p>
+
+**The system:** Automated Easy Apply with intelligent form filling. Dual-browser setup for parallel processing. Chrome DevTools Protocol integration. Rate limiting and anti-detection measures. Tracking CSV for pipeline management.
+
+`Python` `Chrome DevTools Protocol` `Automation` `CSV Tracking`
+
+---
+
+## PageResUNet | Document OCR Enhancement
+
+OCR accuracy drops dramatically on low-quality scans. Faded text, noise, skewed pages - traditional preprocessing helps, but not enough. I explored deep learning approaches.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/pageresunet.webp" alt="PageResUNet Architecture" width="100%" />
+</p>
+
+**The system:** Hybrid ResNet + U-Net architecture for document image enhancement. Skip connections for preserving fine details. Trained on synthetic degradation pipeline. Improves downstream OCR accuracy on low-quality scans.
+
+`Python` `PyTorch` `OpenCV` `Deep Learning` `Computer Vision`
 
 ---
 
@@ -214,10 +370,20 @@ Complete e-commerce with real-time admin dashboard:
 
 **Education:** B.Tech CS, IIIT Pune (8.14 CGPA)
 
+---
+
 ## What I Bring
 
-**Startups:** Ship production systems in days. Cost-optimize from day one ($0.48/video vs $5+ industry standard).
+**For Startups:** I ship production systems in days, not months. Cost optimization from day one ($0.48/video vs $5+ industry standard).
 
-**Scale:** Systems processing 1M+ records. Real-time streaming at 10Hz. 99.7%+ uptime.
+**At Scale:** Systems processing 1M+ records. Real-time streaming at 10Hz. 99.7%+ uptime. I've done it.
 
-**AI/ML:** Production LLM experience, not prototypes. Multi-model architectures. Cost optimization expertise.
+**AI/ML:** Production LLM experience with multi-model architectures. RAG, agents, embeddings, fine-tuning. Not just prototypes - systems that handle real traffic.
+
+---
+
+<p align="center">
+  <a href="https://dorddis.vercel.app">Portfolio</a> &nbsp;|&nbsp;
+  <a href="mailto:dorddis@gmail.com">Email</a> &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/dorddis">LinkedIn</a>
+</p>
