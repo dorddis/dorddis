@@ -8,10 +8,12 @@
   <a href="mailto:dorddis@gmail.com"><img src="https://img.shields.io/badge/Email-dorddis%40gmail.com-EA4335?style=flat&logo=gmail" alt="Email"></a>
 </p>
 
----
-
 <p align="center">
   <b>$50K+ Contracts</b> &nbsp;|&nbsp; <b>$150K+ Value Delivered</b> &nbsp;|&nbsp; <b>8+ Production Systems</b> &nbsp;|&nbsp; <b>92% Best Time Reduction</b>
+</p>
+
+<p align="center">
+  <b>Looking for:</b> AI Engineer | Automation Engineer | Founding Engineer (Remote)
 </p>
 
 ---
@@ -29,8 +31,6 @@ Built a multi-layer AI pipeline for video quality control:
 
 `Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable`
 
----
-
 ### Enterprise Web Scraping | MRUC (India)
 
 > **$136K annual savings | 1M+ records | 87.5% process reduction**
@@ -41,8 +41,6 @@ AWS-based distributed scraping system:
 - 50x performance improvement over manual process
 
 `Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
-
----
 
 ### Real-Time IoT Fleet Tracking | Fortune 500 Automotive
 
@@ -55,8 +53,6 @@ End-to-end IoT integration for factory floor tracking:
 
 `Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
 
----
-
 ### LLM Content Pipeline | CrazyTok Media
 
 > **500+ line prompts | 4-stage workflow | Production-grade**
@@ -67,8 +63,6 @@ Automated social content generation system:
 - Airtable-based content management and scheduling
 
 `Python` `Gemini 2.5 Pro` `Airtable API` `Prompt Engineering`
-
----
 
 ### Voice AI + CRM Automation | RSL Media Hub (USA)
 
@@ -163,8 +157,6 @@ Detecting AIS-evading vessels with AI:
 
 `Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
 
----
-
 ### [AI Portfolio with Generative UI](https://dorddis.vercel.app)
 
 > **Streaming tool calls | 70% token reduction | 26 security vectors blocked**
@@ -175,8 +167,6 @@ Interactive portfolio powered by Gemini 2.5 Flash:
 - Multi-layer security with Cloudflare Turnstile
 
 `Next.js 15` `React 19` `Vercel AI SDK 5.x` `TypeScript` `Redis`
-
----
 
 ### [EggyPro - E-commerce Platform](https://github.com/dorddis/EggyPro)
 
@@ -202,8 +192,6 @@ Complete e-commerce with real-time admin dashboard:
 
 **Education:** B.Tech CS, IIIT Pune (8.14 CGPA)
 
----
-
 ## What I Bring
 
 **Startups:** Ship production systems in days. Cost-optimize from day one ($0.48/video vs $5+ industry standard).
@@ -226,17 +214,4 @@ Complete e-commerce with real-time admin dashboard:
 <p align="center">
   <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
   <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive Time" />
-</p>
-
----
-
-<p align="center">
-  <b>Looking for:</b> AI Engineer | Automation Engineer | Founding Engineer (Remote)
-</p>
-
-<p align="center">
-  <a href="https://dorddis.vercel.app">Portfolio</a> &nbsp;|&nbsp;
-  <a href="mailto:dorddis@gmail.com">Email</a> &nbsp;|&nbsp;
-  <a href="https://linkedin.com/in/dorddis">LinkedIn</a> &nbsp;|&nbsp;
-  <a href="https://github.com/dorddis">GitHub</a>
 </p>
