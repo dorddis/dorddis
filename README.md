@@ -215,19 +215,6 @@ Complete e-commerce with real-time admin dashboard:
 ---
 
 <p align="center">
-  <b>Looking for:</b> AI Engineer | Automation Engineer | Founding Engineer (Remote)
-</p>
-
-<p align="center">
-  <a href="https://dorddis.vercel.app">Portfolio</a> &nbsp;|&nbsp;
-  <a href="mailto:dorddis@gmail.com">Email</a> &nbsp;|&nbsp;
-  <a href="https://linkedin.com/in/dorddis">LinkedIn</a> &nbsp;|&nbsp;
-  <a href="https://github.com/dorddis">GitHub</a>
-</p>
-
----
-
-<p align="center">
   <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
 </p>
 
@@ -239,4 +226,17 @@ Complete e-commerce with real-time admin dashboard:
 <p align="center">
   <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
   <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive Time" />
+</p>
+
+---
+
+<p align="center">
+  <b>Looking for:</b> AI Engineer | Automation Engineer | Founding Engineer (Remote)
+</p>
+
+<p align="center">
+  <a href="https://dorddis.vercel.app">Portfolio</a> &nbsp;|&nbsp;
+  <a href="mailto:dorddis@gmail.com">Email</a> &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/dorddis">LinkedIn</a> &nbsp;|&nbsp;
+  <a href="https://github.com/dorddis">GitHub</a>
 </p>
