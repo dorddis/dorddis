@@ -164,6 +164,14 @@ Sales automation with Voice AI:
 
 > **Real-time multi-sensor fusion | 500+ vessels at 60fps | Hybrid RAG**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/AIS-problem.svg" alt="Maritime RAG Problem" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/AIS-arch-no-bg.svg" alt="Maritime RAG Architecture" width="100%" />
+</p>
+
 Detecting AIS-evading vessels with AI:
 - Gated GNN + Hungarian algorithm for track assignment
 - Hybrid RAG with LangChain for maritime intelligence
