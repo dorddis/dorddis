@@ -16,6 +16,10 @@
   <b>Looking for:</b> AI Engineer | Automation Engineer | Founding Engineer (Remote)
 </p>
 
+<p align="center">
+  <a href="https://calendly.com/dorddiswork/30-minute-meeting-clone"><img src="https://img.shields.io/badge/Book_a_15_Min_Intro_Call-00A2FF?style=for-the-badge&logo=calendly&logoColor=white" alt="Book a Call"></a>
+</p>
+
 ---
 
 ## GitHub Stats
