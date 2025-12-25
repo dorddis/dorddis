@@ -147,7 +147,7 @@ I engineered a 4-stage pipeline with 500+ line structured prompts and validation
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/archer.webp" alt="Archer LLM Pipeline" width="100%" />
+  <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/archer.webp" alt="LLM Content Pipeline" width="100%" />
 </p>
 
 <br>
