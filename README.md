@@ -1,39 +1,98 @@
-# Hey, I'm Sid
+# Siddharth Rodrigues
 
-**AI Automation Engineer** | **$50K+ Contracts** | **$150K+ Value Delivered** | **92% Efficiency Gains**
+### AI Automation Engineer | Production Systems at Scale
 
-I specialize in **production AI systems**: LLM pipelines, computer vision automation, real-time IoT integration, and enterprise-scale web scraping. My work focuses on measurable business impact—not prototypes that collect dust.
+<p align="center">
+  <a href="https://dorddis.vercel.app"><img src="https://img.shields.io/badge/Portfolio-dorddis.vercel.app-blue?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://linkedin.com/in/dorddis"><img src="https://img.shields.io/badge/LinkedIn-dorddis-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
+  <a href="mailto:dorddis@gmail.com"><img src="https://img.shields.io/badge/Email-dorddis%40gmail.com-EA4335?style=for-the-badge&logo=gmail" alt="Email"></a>
+</p>
 
 ---
 
-## Impact Highlights
-
-| Project | Outcome |
-|---------|---------|
-| **Enterprise Web Scraping** | $136K annual savings, 50x throughput improvement |
-| **AI Video QC System** | 92% time reduction (60 min → 5 min per video) |
-| **LLM Content Pipeline** | 87% workflow automation, 70% zero-edit rate |
-| **Real-Time IoT Integration** | 10Hz streaming, 50ms latency, 99.7% uptime |
-| **Voice AI + CRM Automation** | 99% admin work eliminated, $15K revenue recovered |
+<p align="center">
+  <b>$50K+ Contracts</b> &nbsp;|&nbsp; <b>$150K+ Value Delivered</b> &nbsp;|&nbsp; <b>8+ Production Systems</b> &nbsp;|&nbsp; <b>92% Best Time Reduction</b>
+</p>
 
 ---
 
 ## Featured Projects
 
+### Video QC Automation | CrazyTok Media (Singapore)
+
+> **60+ min manual review → 5-10 min automated | 92% time reduction | $0.48/video**
+
+Built a multi-layer AI pipeline for video quality control:
+- **Detection Layer:** Google Cloud Vision API (98% OCR accuracy) + Tesseract pre-filter (56% cost savings)
+- **Correction Layer:** Gemini 2.5 Pro with 3-tier smart filtering
+- **Infrastructure:** PySceneDetect, Airtable, Frame.io integration
+
+`Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable`
+
+---
+
+### Enterprise Web Scraping | MRUC (India)
+
+> **$136K annual savings | 1M+ records | 87.5% process reduction**
+
+AWS-based distributed scraping system:
+- Serverless architecture processing 1,000,000+ records
+- Custom ML model achieving 97% CAPTCHA solve rate
+- 50x performance improvement over manual process
+
+`Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
+
+---
+
+### Real-Time IoT Fleet Tracking | TVS Motor / Twinzo
+
+> **10Hz streaming | 100% fleet visibility | 99.7% uptime**
+
+End-to-end IoT integration for factory floor tracking:
+- MQTT protocol handling 10Hz sensor data
+- Sub-second latency dashboard updates
+- Complete visibility across all factory areas
+
+`Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
+
+---
+
+### LLM Content Pipeline | CrazyTok Media
+
+> **500+ line prompts | 4-stage workflow | Production-grade**
+
+Automated social content generation system:
+- Multi-stage LLM pipeline with validation at each step
+- Structured prompts engineered for consistency
+- Airtable-based content management and scheduling
+
+`Python` `Gemini 2.5 Pro` `Airtable API` `Prompt Engineering`
+
+---
+
+### Voice AI + CRM Automation | RSL Media Hub (USA)
+
+> **99% admin work eliminated | $15K revenue recovered | 14K leads enriched**
+
+Sales automation with Voice AI:
+- Automated call logging, transcription, and follow-ups
+- Lead scoring and pipeline management
+- CRM integration with GoHighLevel
+
+`Python` `GoHighLevel API` `Voice AI` `Automation`
+
+---
+
 ### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag-project)
-Real-time multi-sensor fusion detecting AIS-evading vessels. Gated GNN + Hungarian algorithm for track assignment, hybrid RAG with LangChain, 3D globe visualization processing 500+ vessels at 60fps.
+
+> **Real-time multi-sensor fusion | 500+ vessels at 60fps | Hybrid RAG**
+
+Detecting AIS-evading vessels with AI:
+- Gated GNN + Hungarian algorithm for track assignment
+- Hybrid RAG with LangChain for maritime intelligence
+- 3D globe visualization with real-time updates
 
 `Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
-
-### [AI Portfolio with Generative UI](https://dorddis.vercel.app)
-Interactive portfolio powered by Gemini 2.5 Flash with streaming tool calls. 5 custom tools, Zod validation, 70% token reduction via hybrid context architecture. Multi-layer security blocking 26 penetration vectors.
-
-`Next.js 15` `React 19` `Vercel AI SDK 5.x` `TypeScript` `Redis` `Cloudflare Turnstile`
-
-### [EggyPro - E-commerce Platform](https://github.com/dorddis/EggyPro)
-Full-stack e-commerce with real-time admin dashboard, Stripe payments, inventory monitoring, and Gemini-powered FAQ automating 70% of customer queries.
-
-`Next.js` `Supabase` `PostgreSQL` `Drizzle ORM` `Stripe` `Gemini 2.5`
 
 ---
 
@@ -104,24 +163,41 @@ Full-stack e-commerce with real-time admin dashboard, Stripe payments, inventory
 
 ---
 
-## What I Build
+## Experience
 
-- **LLM-Powered Automation** — Content pipelines, document processing, AI agents with tool calling
-- **Computer Vision Systems** — Video QC, OCR pipelines, quality detection
-- **Real-Time Data Systems** — IoT integration, streaming protocols, live dashboards
-- **Enterprise Automation** — CRM workflows, lead enrichment, web scraping infrastructure
+| Company | Role | Location |
+|---------|------|----------|
+| **CrazyTok Media** | Founding Engineer | Singapore (Remote) |
+| **RSL Media Hub** | AI Automation Engineer | USA (Contract) |
+| **TVS Motor / Twinzo** | Integration Engineer | India (Remote) |
+| **MRUC** | Software Lead | India (Contract) |
 
----
-
-## Currently
-
-Building AI automation systems as a **Founding Engineer**. Open to **US remote opportunities** in AI/ML engineering, automation, or founding engineer roles.
-
-**Let's talk:** [dorddis@gmail.com](mailto:dorddis@gmail.com) | [LinkedIn](https://linkedin.com/in/dorddis) | [Portfolio](https://dorddis.vercel.app)
+**Education:** B.Tech CS, IIIT Pune (8.14 CGPA)
 
 ---
 
-## GitHub Stats
+## What I Bring
+
+**Startups:** Ship production systems in days. Cost-optimize from day one ($0.48/video vs $5+ industry standard).
+
+**Scale:** Systems processing 1M+ records. Real-time streaming at 10Hz. 99.7%+ uptime.
+
+**AI/ML:** Production LLM experience, not prototypes. Multi-model architectures. Cost optimization expertise.
+
+---
+
+<p align="center">
+  <b>Looking for:</b> AI Engineer | Automation Engineer | Founding Engineer (Remote)
+</p>
+
+<p align="center">
+  <a href="https://dorddis.vercel.app">Portfolio</a> &nbsp;|&nbsp;
+  <a href="mailto:dorddis@gmail.com">Email</a> &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/dorddis">LinkedIn</a> &nbsp;|&nbsp;
+  <a href="https://github.com/dorddis">GitHub</a>
+</p>
+
+---
 
 <p align="center">
   <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
