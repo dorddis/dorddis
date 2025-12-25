@@ -18,62 +18,17 @@
 
 ---
 
-## Work
+## GitHub Stats
 
-### Video QC Automation | CrazyTok Media (Singapore)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/github-stats/master/generated/overview.svg#gh-dark-mode-only" alt="GitHub Overview" />
+  <img src="https://raw.githubusercontent.com/dorddis/github-stats/master/generated/languages.svg#gh-dark-mode-only" alt="Languages" />
+</p>
 
-> **60+ min manual review → 5-10 min automated | 92% time reduction | $0.48/video**
-
-Built a multi-layer AI pipeline for video quality control:
-- **Detection Layer:** Google Cloud Vision API (98% OCR accuracy) + Tesseract pre-filter (56% cost savings)
-- **Correction Layer:** Gemini 2.5 Pro with 3-tier smart filtering
-- **Infrastructure:** PySceneDetect, Airtable, Frame.io integration
-
-`Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable`
-
-### Enterprise Web Scraping | MRUC (India)
-
-> **$136K annual savings | 1M+ records | 87.5% process reduction**
-
-AWS-based distributed scraping system:
-- Serverless architecture processing 1,000,000+ records
-- Custom ML model achieving 97% CAPTCHA solve rate
-- 50x performance improvement over manual process
-
-`Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
-
-### Real-Time IoT Fleet Tracking | Fortune 500 Automotive
-
-> **10Hz streaming | 100% fleet visibility | 99.7% uptime**
-
-End-to-end IoT integration for factory floor tracking:
-- MQTT protocol handling 10Hz sensor data
-- Sub-second latency dashboard updates
-- Complete visibility across all factory areas
-
-`Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
-
-### LLM Content Pipeline | CrazyTok Media
-
-> **500+ line prompts | 4-stage workflow | Production-grade**
-
-Automated social content generation system:
-- Multi-stage LLM pipeline with validation at each step
-- Structured prompts engineered for consistency
-- Airtable-based content management and scheduling
-
-`Python` `Gemini 2.5 Pro` `Airtable API` `Prompt Engineering`
-
-### Voice AI + CRM Automation | RSL Media Hub (USA)
-
-> **99% admin work eliminated | $15K revenue recovered | 14K leads enriched**
-
-Sales automation with Voice AI:
-- Automated call logging, transcription, and follow-ups
-- Lead scoring and pipeline management
-- CRM integration with GoHighLevel
-
-`Python` `GoHighLevel API` `Voice AI` `Automation`
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dorddis/github-stats/master/generated/overview.svg#gh-light-mode-only" alt="GitHub Overview" />
+  <img src="https://raw.githubusercontent.com/dorddis/github-stats/master/generated/languages.svg#gh-light-mode-only" alt="Languages" />
+</p>
 
 ---
 
@@ -144,6 +99,65 @@ Sales automation with Voice AI:
 
 ---
 
+## Work
+
+### Video QC Automation | CrazyTok Media (Singapore)
+
+> **60+ min manual review -> 5-10 min automated | 92% time reduction | $0.48/video**
+
+Built a multi-layer AI pipeline for video quality control:
+- **Detection Layer:** Google Cloud Vision API (98% OCR accuracy) + Tesseract pre-filter (56% cost savings)
+- **Correction Layer:** Gemini 2.5 Pro with 3-tier smart filtering
+- **Infrastructure:** PySceneDetect, Airtable, Frame.io integration
+
+`Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable`
+
+### Enterprise Web Scraping | MRUC (India)
+
+> **$136K annual savings | 1M+ records | 87.5% process reduction**
+
+AWS-based distributed scraping system:
+- Serverless architecture processing 1,000,000+ records
+- Custom ML model achieving 97% CAPTCHA solve rate
+- 50x performance improvement over manual process
+
+`Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
+
+### Real-Time IoT Fleet Tracking | Fortune 500 Automotive
+
+> **10Hz streaming | 100% fleet visibility | 99.7% uptime**
+
+End-to-end IoT integration for factory floor tracking:
+- MQTT protocol handling 10Hz sensor data
+- Sub-second latency dashboard updates
+- Complete visibility across all factory areas
+
+`Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
+
+### LLM Content Pipeline | CrazyTok Media
+
+> **500+ line prompts | 4-stage workflow | Production-grade**
+
+Automated social content generation system:
+- Multi-stage LLM pipeline with validation at each step
+- Structured prompts engineered for consistency
+- Airtable-based content management and scheduling
+
+`Python` `Gemini 2.5 Pro` `Airtable API` `Prompt Engineering`
+
+### Voice AI + CRM Automation | RSL Media Hub (USA)
+
+> **99% admin work eliminated | $15K revenue recovered | 14K leads enriched**
+
+Sales automation with Voice AI:
+- Automated call logging, transcription, and follow-ups
+- Lead scoring and pipeline management
+- CRM integration with GoHighLevel
+
+`Python` `GoHighLevel API` `Voice AI` `Automation`
+
+---
+
 ## Projects
 
 ### [Maritime Dark Ship Detection](https://github.com/dorddis/maritime-rag-project)
@@ -199,19 +213,3 @@ Complete e-commerce with real-time admin dashboard:
 **Scale:** Systems processing 1M+ records. Real-time streaming at 10Hz. 99.7%+ uptime.
 
 **AI/ML:** Production LLM experience, not prototypes. Multi-model architectures. Cost optimization expertise.
-
----
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repos per Language" />
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most Commit Language" />
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive Time" />
-</p>
