@@ -97,11 +97,15 @@
 ![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=flat&logo=gmail&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
 
+<br>
+
 ---
 
 # Work
 
 Production systems I've built for clients. Real problems, real scale, real results.
+
+<br>
 
 ---
 
@@ -111,13 +115,26 @@ A Singapore-based media company was spending 60+ minutes per video on manual qua
 
 I built **Vidura** - a multi-layer AI pipeline that automates the entire process.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/video-qc.webp" alt="Video QC Architecture" width="100%" />
 </p>
 
+<br>
+
 **The result:** 60+ minute reviews now take 5-10 minutes. Cost per video dropped to $0.48. The system uses PySceneDetect for intelligent frame sampling, Tesseract as a cost-saving pre-filter, Cloud Vision API for OCR, and Gemini 2.5 Pro for context-aware spell checking.
 
-`Python` `Cloud Vision API` `Gemini 2.5 Pro` `Tesseract` `Airtable` `Frame.io`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Cloud Vision](https://img.shields.io/badge/Cloud_Vision-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Pro-4285F4?style=flat&logo=googlegemini&logoColor=white)
+![Tesseract](https://img.shields.io/badge/Tesseract-000000?style=flat)
+![Airtable](https://img.shields.io/badge/Airtable-18BFFF?style=flat&logo=airtable&logoColor=white)
+![Frame.io](https://img.shields.io/badge/Frame.io-8B5CF6?style=flat)
+
+<br><br>
 
 ---
 
@@ -127,13 +144,24 @@ Same client, different problem. They needed consistent, high-quality social medi
 
 I engineered a 4-stage pipeline with 500+ line structured prompts and validation at each step.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/archer.webp" alt="Archer LLM Pipeline" width="100%" />
 </p>
 
+<br>
+
 **The result:** Production-grade content generation with consistent brand voice. Each stage validates the previous output before proceeding, catching errors early. Airtable integration for content management and scheduling.
 
-`Python` `Gemini 2.5 Pro` `Airtable API` `Prompt Engineering`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Pro-4285F4?style=flat&logo=googlegemini&logoColor=white)
+![Airtable](https://img.shields.io/badge/Airtable-18BFFF?style=flat&logo=airtable&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-6366F1?style=flat)
+
+<br><br>
 
 ---
 
@@ -143,13 +171,24 @@ A US-based marketing agency was drowning in admin work. Sales reps spent more ti
 
 I built an automation layer that eliminated 99% of the admin overhead.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/rsl-voice-crm.webp" alt="Voice AI CRM Architecture" width="100%" />
 </p>
 
+<br>
+
 **The result:** $15K in recovered revenue from better follow-up. 14,000 leads enriched with AI. Automated call logging, transcription, lead scoring, and pipeline management. CRM integration with GoHighLevel.
 
-`Python` `GoHighLevel API` `Voice AI` `Automation`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![GoHighLevel](https://img.shields.io/badge/GoHighLevel-FF6B00?style=flat)
+![Voice AI](https://img.shields.io/badge/Voice_AI-9333EA?style=flat)
+![Automation](https://img.shields.io/badge/Automation-10B981?style=flat)
+
+<br><br>
 
 ---
 
@@ -159,13 +198,25 @@ A major automotive manufacturer needed complete visibility into their factory fl
 
 I built the end-to-end IoT integration layer.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/twinzo-iot.webp" alt="IoT Fleet Tracking" width="100%" />
 </p>
 
+<br>
+
 **The result:** 10Hz sensor streaming with sub-second dashboard updates. 100% fleet visibility across all factory areas. 99.7% uptime. MQTT protocol handling thousands of messages per second.
 
-`Python` `MQTT` `WebSockets` `React` `Real-time Dashboards`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=eclipse-mosquitto&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socket.io&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Real-time](https://img.shields.io/badge/Real--time_Dashboards-F59E0B?style=flat)
+
+<br><br>
 
 ---
 
@@ -175,13 +226,25 @@ A research organization in India was manually collecting data from thousands of 
 
 I built a distributed scraping system on AWS.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/mruc-scraping.webp" alt="MRUC Web Scraping" width="100%" />
 </p>
 
+<br>
+
 **The result:** $136K annual savings. 1M+ records processed. 87.5% reduction in manual work. Custom ML model achieving 97% CAPTCHA solve rate. Serverless architecture that scales automatically.
 
-`Python` `AWS Lambda` `Selenium` `ML` `PostgreSQL`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat&logo=awslambda&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
+![ML](https://img.shields.io/badge/Machine_Learning-F43F5E?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+
+<br><br>
 
 ---
 
@@ -191,13 +254,24 @@ The same US marketing agency needed to enrich their lead database. Raw lists wit
 
 I built a high-throughput enrichment pipeline.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/linkedin-lead-enrichment.webp" alt="Lead Enrichment Pipeline" width="100%" />
 </p>
 
+<br>
+
 **The result:** 14,260 businesses processed with 99.98% completion rate. 100 concurrent browser connections via Crawl4AI. Gemini 2.5 Flash for intelligent data parsing. Cost: less than $0.001 per lead.
 
-`Python` `Crawl4AI` `Gemini 2.5 Flash` `Async`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Crawl4AI](https://img.shields.io/badge/Crawl4AI-059669?style=flat)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-4285F4?style=flat&logo=googlegemini&logoColor=white)
+![Async](https://img.shields.io/badge/Asyncio-3B82F6?style=flat)
+
+<br><br>
 
 ---
 
@@ -207,13 +281,24 @@ Before you can enrich a lead, you need their LinkedIn profile. But matching "Joh
 
 I built an automated profile discovery system.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/profile-url-finder.webp" alt="Profile URL Finder" width="100%" />
 </p>
 
+<br>
+
 **The result:** 96% match accuracy using multi-signal verification. Processes thousands of leads per hour. Handles edge cases like name variations, company changes, and multiple profiles.
 
-`Python` `LinkedIn API` `Fuzzy Matching` `Async Processing`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/LinkedIn_API-0A66C2?style=flat&logo=linkedin&logoColor=white)
+![Fuzzy Matching](https://img.shields.io/badge/Fuzzy_Matching-8B5CF6?style=flat)
+![Async](https://img.shields.io/badge/Async_Processing-3B82F6?style=flat)
+
+<br><br>
 
 ---
 
@@ -223,13 +308,24 @@ Content marketing requires consistent publishing. But writing, formatting, sched
 
 I built a Make.com workflow that automates the entire pipeline.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/blog-automation.webp" alt="Blog Automation Workflow" width="100%" />
 </p>
 
+<br>
+
 **The result:** End-to-end blog automation from ideation to publishing. AI-generated drafts, human review workflow, automatic formatting, scheduled posting, and social media cross-posting.
 
-`Make.com` `Gemini 2.5 Flash` `WordPress API` `Social APIs`
+<br>
+
+![Make.com](https://img.shields.io/badge/Make.com-6366F1?style=flat&logo=make&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-4285F4?style=flat&logo=googlegemini&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
+![Social APIs](https://img.shields.io/badge/Social_APIs-E4405F?style=flat)
+
+<br><br>
 
 ---
 
@@ -239,19 +335,33 @@ A logistics company in India needed to understand their operations data. Thousan
 
 I built an AI agent that lets them query their data in natural language.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/work/suyashh-ai-insights.webp" alt="AI Insights Agent" width="100%" />
 </p>
 
+<br>
+
 **The result:** Natural language queries like "Show me all delayed trips last week" return instant results. SQL generation with Gemini. Dashboard integration. No more waiting for IT to build reports.
 
-`Python` `Gemini 2.5 Pro` `PostgreSQL` `FastAPI` `React`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Pro-4285F4?style=flat&logo=googlegemini&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+
+<br><br>
 
 ---
 
 # Projects
 
 Personal projects and portfolio pieces. Built to learn, built to demonstrate, built to ship.
+
+<br>
 
 ---
 
@@ -261,13 +371,26 @@ Screen time is destroying our eyes. The average knowledge worker blinks 66% less
 
 I built **Lumina** - a production-grade desktop app that uses computer vision to monitor eye health and prevent strain.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/lumina.webp" alt="Lumina Architecture" width="100%" />
 </p>
 
+<br>
+
 **The system:** 17 detection modules using MediaPipe for real-time blink detection, posture monitoring, and drowsiness alerts. 3-window Electron architecture (hub, status bar, overlay). Offline-first with SQLite and cloud sync to Supabase. Multi-tenant admin dashboard for enterprise deployment. Turborepo monorepo with 29K+ lines of TypeScript.
 
-`Electron` `MediaPipe` `TypeScript` `Next.js` `Supabase` `Turborepo`
+<br>
+
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat&logo=turborepo&logoColor=white)
+
+<br><br>
 
 ---
 
@@ -277,13 +400,27 @@ Thousands of vessels disable their AIS transponders daily to evade detection - s
 
 I built a multi-sensor fusion system that detects these "dark ships."
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/maritime-rag.webp" alt="Maritime RAG Architecture" width="100%" />
 </p>
 
+<br>
+
 **The system:** Real-time fusion of AIS, radar, satellite, and drone feeds. Gated GNN with Hungarian algorithm for track correlation. Hybrid RAG architecture for natural language queries ("Show me vessels that went dark near the Strait of Hormuz"). 3D globe visualization tracking 500+ vessels at 60fps.
 
-`Python` `FastAPI` `Next.js` `Three.js` `PostgreSQL + pgvector` `Redis` `LangChain`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_+_pgvector-336791?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat&logo=langchain&logoColor=white)
+
+<br><br>
 
 ---
 
@@ -291,13 +428,25 @@ I built a multi-sensor fusion system that detects these "dark ships."
 
 Most portfolios are static pages. You scroll, you read, you leave. I wanted something different - a portfolio you could actually talk to.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/ai-portfolio.webp" alt="AI Portfolio Architecture" width="100%" />
 </p>
 
+<br>
+
 **The system:** Interactive portfolio powered by Gemini 2.5 Flash with streaming tool calls. 5 custom tools with Zod validation (search projects, filter by tech, get contact info). Hybrid context architecture achieving 70% token reduction. Multi-layer security blocking 26 attack vectors. Cloudflare Turnstile integration.
 
-`Next.js 15` `React 19` `Vercel AI SDK 5.x` `TypeScript` `Redis`
+<br>
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
+![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat&logo=vercel&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+<br><br>
 
 ---
 
@@ -305,13 +454,26 @@ Most portfolios are static pages. You scroll, you read, you leave. I wanted some
 
 Building e-commerce from scratch teaches you everything - payments, inventory, real-time updates, customer support, admin dashboards. I built EggyPro as a complete production-ready platform.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/eggypro.webp" alt="EggyPro Architecture" width="100%" />
 </p>
 
+<br>
+
 **The system:** Full-stack e-commerce with Stripe payments, real-time inventory monitoring, and AI-powered customer support. Gemini chatbot handling 70% of customer queries automatically. Real-time admin dashboard with order management and analytics.
 
-`Next.js` `Supabase` `PostgreSQL` `Drizzle ORM` `Stripe` `Gemini 2.5`
+<br>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Drizzle](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5-4285F4?style=flat&logo=googlegemini&logoColor=white)
+
+<br><br>
 
 ---
 
@@ -321,13 +483,25 @@ Fitness apps give you workout plans. But they don't adapt. They don't learn. The
 
 I built Gymzy to be smarter.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/gymzy.webp" alt="Gymzy Architecture" width="100%" />
 </p>
 
+<br>
+
 **The system:** AI-powered workout generation that adapts to your feedback. Progress tracking with intelligent recommendations. Exercise library with form guides. User authentication with Supabase.
 
-`Next.js` `Supabase` `PostgreSQL` `Gemini 2.5 Flash` `Tailwind`
+<br>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-4285F4?style=flat&logo=googlegemini&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
+<br><br>
 
 ---
 
@@ -335,13 +509,24 @@ I built Gymzy to be smarter.
 
 Applying to jobs is soul-crushing. The same forms, the same questions, the same rejections. I automated the pain away.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/linkedin-automation.webp" alt="LinkedIn Automation" width="100%" />
 </p>
 
+<br>
+
 **The system:** Automated Easy Apply with intelligent form filling. Dual-browser setup for parallel processing. Chrome DevTools Protocol integration. Rate limiting and anti-detection measures. Tracking CSV for pipeline management.
 
-`Python` `Chrome DevTools Protocol` `Automation` `CSV Tracking`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools_Protocol-4285F4?style=flat&logo=googlechrome&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-10B981?style=flat)
+![CSV](https://img.shields.io/badge/Pipeline_Tracking-6B7280?style=flat)
+
+<br><br>
 
 ---
 
@@ -349,13 +534,25 @@ Applying to jobs is soul-crushing. The same forms, the same questions, the same 
 
 OCR accuracy drops dramatically on low-quality scans. Faded text, noise, skewed pages - traditional preprocessing helps, but not enough. I explored deep learning approaches.
 
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dorddis/dorddis/master/assets/projects/pageresunet.webp" alt="PageResUNet Architecture" width="100%" />
 </p>
 
+<br>
+
 **The system:** Hybrid ResNet + U-Net architecture for document image enhancement. Skip connections for preserving fine details. Trained on synthetic degradation pipeline. Improves downstream OCR accuracy on low-quality scans.
 
-`Python` `PyTorch` `OpenCV` `Deep Learning` `Computer Vision`
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-FF6F00?style=flat)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-8B5CF6?style=flat)
+
+<br><br>
 
 ---
 
@@ -370,6 +567,8 @@ OCR accuracy drops dramatically on low-quality scans. Faded text, noise, skewed 
 
 **Education:** B.Tech CS, IIIT Pune (8.14 CGPA)
 
+<br>
+
 ---
 
 ## What I Bring
@@ -379,6 +578,8 @@ OCR accuracy drops dramatically on low-quality scans. Faded text, noise, skewed 
 **At Scale:** Systems processing 1M+ records. Real-time streaming at 10Hz. 99.7%+ uptime. I've done it.
 
 **AI/ML:** Production LLM experience with multi-model architectures. RAG, agents, embeddings, fine-tuning. Not just prototypes - systems that handle real traffic.
+
+<br>
 
 ---
 
