@@ -113,7 +113,7 @@ Production systems I've built for clients. Real problems, real scale, real resul
 
 A Singapore-based media company was spending 60+ minutes per video on manual quality control. Editors would scrub through footage frame-by-frame, checking subtitles for spelling errors, timing issues, and formatting problems.
 
-I built **Vidura** - a multi-layer AI pipeline that automates the entire process.
+I built a multi-layer AI pipeline that automates the entire process.
 
 <br>
 
