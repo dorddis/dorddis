@@ -3,9 +3,9 @@
 ### AI Automation Engineer | Production Systems at Scale
 
 <p align="center">
-  <a href="https://dorddis.vercel.app"><img src="https://img.shields.io/badge/Portfolio-dorddis.vercel.app-blue?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://linkedin.com/in/dorddis"><img src="https://img.shields.io/badge/LinkedIn-dorddis-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
-  <a href="mailto:dorddis@gmail.com"><img src="https://img.shields.io/badge/Email-dorddis%40gmail.com-EA4335?style=for-the-badge&logo=gmail" alt="Email"></a>
+  <a href="https://dorddis.vercel.app"><img src="https://img.shields.io/badge/Portfolio-dorddis.vercel.app-blue?style=flat" alt="Portfolio"></a>
+  <a href="https://linkedin.com/in/dorddis"><img src="https://img.shields.io/badge/LinkedIn-dorddis-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"></a>
+  <a href="mailto:dorddis@gmail.com"><img src="https://img.shields.io/badge/Email-dorddis%40gmail.com-EA4335?style=flat&logo=gmail" alt="Email"></a>
 </p>
 
 ---
