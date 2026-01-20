@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://calendly.com/dorddiswork/30-minute-meeting-clone"><img src="https://img.shields.io/badge/Book_a_15_Min_Intro_Call-00A2FF?style=for-the-badge&logo=calendly&logoColor=white" alt="Book a Call"></a>
+  <a href="https://api.leadconnectorhq.com/widget/bookings/siddharth-rodrigues-personal-calendar-ihwyx1a3d"><img src="https://img.shields.io/badge/Book_a_15_Min_Intro_Call-00A2FF?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call"></a>
 </p>
 
 ---
