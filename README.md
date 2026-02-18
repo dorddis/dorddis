@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://dorddis.vercel.app"><img src="https://img.shields.io/badge/Portfolio-dorddis.vercel.app-blue?style=flat" alt="Portfolio"></a>
-  <a href="https://linkedin.com/in/dorddis"><img src="https://img.shields.io/badge/LinkedIn-dorddis-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/siddharth-rodrigues/"><img src="https://img.shields.io/badge/LinkedIn-siddharth--rodrigues-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"></a>
   <a href="mailto:dorddis@gmail.com"><img src="https://img.shields.io/badge/Email-dorddis%40gmail.com-EA4335?style=flat&logo=gmail" alt="Email"></a>
 </p>
 
@@ -590,5 +590,5 @@ OCR accuracy drops dramatically on low-quality scans. Faded text, noise, skewed 
 <p align="center">
   <a href="https://dorddis.vercel.app">Portfolio</a> &nbsp;|&nbsp;
   <a href="mailto:dorddis@gmail.com">Email</a> &nbsp;|&nbsp;
-  <a href="https://linkedin.com/in/dorddis">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/siddharth-rodrigues/">LinkedIn</a>
 </p>
